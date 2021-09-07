@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">OptionsDemo</string>
+    <string name="app_name">Options Demo</string>
+    <string name="rock">Rock</string>
+    <string name="scissors">Scissors</string>
+    <string name="paper">Paper</string>
+    <string name="unchecked">Unchecked</string>
 </resources>

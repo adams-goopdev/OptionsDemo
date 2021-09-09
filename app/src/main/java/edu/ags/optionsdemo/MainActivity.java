@@ -38,7 +38,12 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
 
             //Show HTML example
-            String html = "<html><body style='background-color:yellow'></body><html>";
+            String html  = "<html><body style='background-color:cornflowerblue'>";
+            html+= "<table border='1'>";
+            html+= "<tr><td>1</td><td>Homer</td></tr>";
+            html+= "<tr><td>2</td><td>Bart</td></tr>";
+            html+= "<tr><td>3</td><td>Marge</td></tr>";
+            html+= "</table></body></html>";
             webView.loadData(html,"text/html","UTF-8");
 
             Log.d(TAG, "Finished OnCreate");
